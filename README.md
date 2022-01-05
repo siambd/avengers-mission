@@ -1,4 +1,4 @@
-…or create a new repository on the command line
+#for creating a new repository
 echo "# avengers-mission" >> README.md
 git init
 git add README.md
@@ -7,7 +7,7 @@ git branch -M main
 git remote add origin https://github.com/siambd/avengers-mission.git
 git push -u origin main
 
-…or push an existing repository from the command line
-git remote add origin https://github.com/siambd/avengers-mission.git
-git branch -M main
-git push -u origin main
+#For updating repository
+git add .
+git commit -m " your message"
+git push 
