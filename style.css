@@ -8,11 +8,10 @@ h1{
 font-family:Yeseva One;
 }
 .first-heading{
-    border-left: 6px solid rgb(5, 133, 238);
+    border-left: 5px solid rgb(5, 133, 238);
     padding-left: 10px;
     padding-top: 0px;
-    height: 200px;
-    /* left: 50%; */
+    height: 150px;
 }
 .tomato-color{
     color: #FF5959;
@@ -20,16 +19,21 @@ font-family:Yeseva One;
 section{
     margin-top: 40px;
 }
+.content-allignment{
+    padding-left: 10%;
+    padding-right: 10%;
+}
 .first-section{
     padding-left: 10%;
     
 }
 .half-width{
     width: 50%;
-    /* padding-left: 10%; */
+    
 }
 .half-width img{
-    width: 80%;
+    width: 70%;
+    padding-left: 60px;
 }
 .flex-display{
     display: flex;
@@ -45,55 +49,58 @@ p{
     font-weight: bold;
     color: white;
 }
-.button-margin{
+/* .button-margin{
     margin-top: 1000px;
-}
-#mission-heading{
+} */
+.center-heading{
     text-align: center;
+    
 }
 .mission-item{
     border-radius: 5%;
     width:30%;
     margin-left: 1%;
     margin-right: 1%;
-    box-shadow: 5px 5px 15px grey;
     padding-left: 10px;
     padding-right: 20px;
     margin-top: 1px;
-    padding-top: -40px;
+    /* padding-top: -40px; */
     padding-bottom: 20px;
+    box-shadow: 5px 5px 15px grey;
 }
 .mission-item img{
   display:inline;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  margin-top: -100px;
+  /* margin-top: -100px; */
   padding-top: 1px;
-  
 }
-.content-allignment{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-.content-allignment img{
-    padding-top: 100px;
-}
-#color-mission-item{
+#bg-color-mission{
     background-color:rgba(79, 157, 166, 0.1); 
 }
-#color-vission-item{
+#bg-color-vission{
     background-color:rgba(255, 89, 89, 0.1);
 }
-#color-goal-item{
+#bg-color-goal{
     background-color:#FFF4D6;
 }
-
 .third-part-width{
     width: 50%;
 }
 .third-part-width img{
     width: 70%;
+    padding-top: 120px;
+}
+.fourth-part-width{
+    width: 50%;
+}
+.fourth-part-width img{
+    width: 70%;
+    padding-top: 50px;
+    margin-left: 100px;
+    padding-left: 80px;
+    padding-top: 130px;
 }
 .background-image{
     background-image: url(/shapes/shape-1.png);
@@ -101,3 +108,42 @@ p{
     background-position:center;
     background-size: 400px;
 }
+
+
+.join-form {
+    margin-left: 20%;
+}
+  .input-box{
+    
+    width: 200%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  input[type=submit] {
+    width: 100%;
+    background-color: rgb(0, 238, 255);
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  footer{
+      background-color: black;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      height: 25vh;
+      padding-top: 10px;
+      margin-top: 10%;
+  }
+  #lobster-font{
+      font-family:'Times New Roman', Times, serif;
+  }
+
+
+ 
