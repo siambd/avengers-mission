@@ -1,6 +1,6 @@
 #for creating a new repository
 echo "# avengers-mission" >> README.md
-git init
+git init 
 git add README.md
 git commit -m "first commit"
 git branch -M main
@@ -11,3 +11,4 @@ git push -u origin main
 git add .
 git commit -m " your message"
 git push 
+ 
