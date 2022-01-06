@@ -8,8 +8,8 @@
 ## Technologies
 
 Project created with:
--HTML
--CSS
+- HTML
+- CSS
 
 ## Setup
 
