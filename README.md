@@ -3,6 +3,7 @@
 - website for full-fil assignment 1
 - live site link: https://siambd.github.io/avengers-mission/
 - github link: https://github.com/siambd/avengers-mission
+- note: background image could be show as different due to lack of reponsiveness.
 
 ## Technologies
 
