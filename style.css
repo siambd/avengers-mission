@@ -1,3 +1,4 @@
+/* 1st part and common class  */
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -49,9 +50,8 @@ p{
     font-weight: bold;
     color: white;
 }
-/* .button-margin{
-    margin-top: 1000px;
-} */
+
+/* 2nd part start (mission part) */
 .center-heading{
     text-align: center;
     
@@ -64,7 +64,6 @@ p{
     padding-left: 10px;
     padding-right: 20px;
     margin-top: 1px;
-    /* padding-top: -40px; */
     padding-bottom: 20px;
     box-shadow: 5px 5px 15px grey;
 }
@@ -73,7 +72,6 @@ p{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  /* margin-top: -100px; */
   padding-top: 1px;
 }
 #bg-color-mission{
@@ -85,6 +83,8 @@ p{
 #bg-color-goal{
     background-color:#FFF4D6;
 }
+
+/* 3rd part start ( super ability) */
 .third-part-width{
     width: 50%;
 }
@@ -92,6 +92,8 @@ p{
     width: 70%;
     padding-top: 120px;
 }
+
+/* 4th part start ( community ) */
 .fourth-part-width{
     width: 50%;
 }
@@ -109,11 +111,11 @@ p{
     background-size: 400px;
 }
 
-
+/* 5th part start , (extra part , form part ) */
 .join-form {
     margin-left: 20%;
 }
-  .input-box{
+.input-box{
     
     width: 200%;
     padding: 12px 20px;
@@ -133,6 +135,9 @@ p{
     border-radius: 4px;
     cursor: pointer;
   }
+   /* 5th part end */
+
+  /* footer part start  */
   footer{
       background-color: black;
       color: rgb(255, 255, 255);
@@ -141,7 +146,9 @@ p{
       padding-top: 10px;
       margin-top: 10%;
   }
-  #lobster-font{
+
+  /* special font for footer heading  */
+  #special-font{
       font-family:'Times New Roman', Times, serif;
   }
 
