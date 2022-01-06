@@ -1,7 +1,7 @@
 ## General info
 
 - website for full-fil assignment 1
-  *live site link:
+  #live site link:
   *github link:
 
 ## Technologies
